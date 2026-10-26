@@ -198,33 +198,34 @@ th.col-del   { width: 40px;  min-width: 40px; }
 
 /* JOURNAL — column widths (exact match to source36 columns.ts) */
 th.jcol-num  { width: 40px;  min-width: 40px;  text-align: center; }
+/* точные ширины из 4445 */
 th.jcol-acc  { width: 74px;  min-width: 74px; }
-th.jcol-type { width: 150px; min-width: 150px; }
+th.jcol-type { width: 112px; min-width: 112px; }
 th.jcol-unit { width: 50px;  min-width: 50px;  text-align: center; }
 th.jcol-min  { width: 40px;  min-width: 40px;  text-align: center; }
 th.jcol-max  { width: 40px;  min-width: 40px;  text-align: center; }
 th.jcol-kl   { width: 40px;  min-width: 40px;  text-align: center; }
-th.jcol-sn   { width: 110px; min-width: 110px; }
-th.jcol-gr   { width: 70px;  min-width: 70px; }
+th.jcol-sn   { width: 87px;  min-width: 87px; }
+th.jcol-gr   { width: 56px;  min-width: 56px; }
 th.jcol-yr   { width: 50px;  min-width: 50px;  text-align: center; }
-th.jcol-prot { width: 100px; min-width: 100px; }
 th.jcol-mp   { width: 160px; min-width: 160px; }
-th.jcol-verd { width: 70px;  min-width: 70px;  text-align: center; }
-th.jcol-till { width: 71px;  min-width: 71px;  text-align: center; }
 th.jcol-st   { width: 50px;  min-width: 50px;  text-align: center; }
 th.jcol-mpi  { width: 30px;  min-width: 30px;  text-align: center; }
-th.jcol-std  { width: 100px; min-width: 100px; }
-th.jcol-grsi { width: 60px;  min-width: 60px; }
-th.jcol-sino { width: 65px;  min-width: 65px; }
-th.jcol-cust { width: 180px; min-width: 180px; }
+th.jcol-cust { width: 135px; min-width: 135px; }
+th.jcol-par  { width: 100px; min-width: 100px; }
+th.jcol-note { width: 150px; min-width: 150px; }
+th.jcol-prot { width: 90px;  min-width: 90px; }
+th.jcol-verd { width: 70px;  min-width: 70px;  text-align: center; }
+th.jcol-till { width: 71px;  min-width: 71px;  text-align: center; }
+th.jcol-std  { width: 75px;  min-width: 75px; }
+th.jcol-grsi { width: 112px; min-width: 112px; }
+th.jcol-sino { width: 112px; min-width: 112px; }
 th.jcol-arsh { width: 160px; min-width: 160px; }
 th.jcol-who  { width: 160px; min-width: 160px; }
 th.jcol-rej  { width: 180px; min-width: 180px; }
-th.jcol-temp { width: 110px; min-width: 110px; text-align: center; }
-th.jcol-pres { width: 120px; min-width: 120px; text-align: center; }
-th.jcol-hum  { width: 120px; min-width: 120px; text-align: center; }
-th.jcol-par  { width: 100px; min-width: 100px; }
-th.jcol-note { width: 200px; min-width: 200px; }
+th.jcol-temp { width: 86px;  min-width: 86px;  text-align: center; }
+th.jcol-pres { width: 96px;  min-width: 96px;  text-align: center; }
+th.jcol-hum  { width: 92px;  min-width: 92px;  text-align: center; }
 th.jcol-chk  { width: 70px;  min-width: 70px; }
 th.jcol-del  { width: 36px;  min-width: 36px; }
 

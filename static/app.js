@@ -162,37 +162,36 @@ function filteredOrders() {
 }
 
 /* ============================================================
-   JOURNAL — columns (exact order from original)
+   JOURNAL — columns (точный порядок и ширины из 4445)
    ============================================================ */
-// Порядок колонок по source36 columns.ts + наши доп. поля
 const J_COLS = [
-  { key:'acceptance_date',   label:'Дата приемки',           cls:'jcol-acc',  mono:true },
+  { key:'acceptance_date',   label:'Дата приемки',           cls:'jcol-acc',   mono:true },
   { key:'type_si',           label:'ТИП СИ',                 cls:'jcol-type' },
-  { key:'unit',              label:'ед',                     cls:'jcol-unit',  center:true },
-  { key:'min',               label:'мин',                    cls:'jcol-min',   center:true },
-  { key:'max',               label:'макс',                   cls:'jcol-max',   center:true },
-  { key:'accuracy_class',    label:'кт',                     cls:'jcol-kl',    center:true },
+  { key:'unit',              label:'ед',                     cls:'jcol-unit',   center:true },
+  { key:'min',               label:'мин',                    cls:'jcol-min',    center:true },
+  { key:'max',               label:'макс',                   cls:'jcol-max',    center:true },
+  { key:'accuracy_class',    label:'кт',                     cls:'jcol-kl',     center:true },
   { key:'si_number',         label:'номер СИ',               cls:'jcol-sn' },
   { key:'gr_number',         label:'Г.р. №',                 cls:'jcol-gr' },
-  { key:'year',              label:'Год',                    cls:'jcol-yr',    center:true },
-  { key:'protocol_number',   label:'№ протокола',            cls:'jcol-prot' },
+  { key:'year',              label:'Год',                    cls:'jcol-yr',     center:true },
   { key:'mp',                label:'МП',                     cls:'jcol-mp' },
-  { key:'verification_date', label:'Поверен',                cls:'jcol-verd',  center:true },
-  { key:'valid_until',       label:'Годен до',               cls:'jcol-till',  center:true },
-  { key:'stamp',             label:'КЛЕЙМО',                 cls:'jcol-st',    center:true },
-  { key:'mpi',               label:'МПИ',                    cls:'jcol-mpi',   center:true },
+  { key:'stamp',             label:'КЛЕЙМО',                 cls:'jcol-st',     center:true },
+  { key:'mpi',               label:'МПИ',                    cls:'jcol-mpi',    center:true },
+  { key:'customer',          label:'Наименование заказчика', cls:'jcol-cust' },
+  { key:'party',             label:'Партия',                 cls:'jcol-par' },
+  { key:'note',              label:'Примечание',             cls:'jcol-note' },
+  { key:'protocol_number',   label:'№ протокола',            cls:'jcol-prot' },
+  { key:'verification_date', label:'Поверен',                cls:'jcol-verd',   center:true },
+  { key:'valid_until',       label:'Годен до',               cls:'jcol-till',   center:true },
   { key:'standards',         label:'ЭТАЛОНЫ',                cls:'jcol-std' },
   { key:'gr_si',             label:'ГР СИ',                  cls:'jcol-grsi' },
   { key:'serial_number',     label:'№ СИ',                   cls:'jcol-sino' },
-  { key:'customer',          label:'Наименование заказчика', cls:'jcol-cust' },
   { key:'fgis_arshin',       label:'СВ-ВО ФГИС АРШИН',      cls:'jcol-arsh' },
   { key:'verifier',          label:'ПОВЕРИТЕЛЬ (ФИО)',        cls:'jcol-who' },
   { key:'rejection_reason',  label:'ПРИЧИНА НЕПРИГОДНОСТИ',  cls:'jcol-rej' },
-  { key:'temperature',       label:'Температура',            cls:'jcol-temp',  center:true },
-  { key:'pressure',          label:'Атм. давление',          cls:'jcol-pres',  center:true },
-  { key:'humidity',          label:'Отн. влажность',         cls:'jcol-hum',   center:true },
-  { key:'party',             label:'Партия',                 cls:'jcol-par' },
-  { key:'note',              label:'Примечание',             cls:'jcol-note' },
+  { key:'temperature',       label:'Температура',            cls:'jcol-temp',   center:true },
+  { key:'pressure',          label:'Атм. давление',          cls:'jcol-pres',   center:true },
+  { key:'humidity',          label:'Отн. влажность',         cls:'jcol-hum',    center:true },
   { key:'checked',           label:'Проверка',               cls:'jcol-chk' },
 ];
 
